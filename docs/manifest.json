@@ -1,0 +1,876 @@
+{
+  "generator_version": "1.0.0",
+  "repo_name": "PythonDataScienceHandbook",
+  "repo_source": "/home/user/PythonDataScienceHandbook",
+  "repo_fingerprint": "86cfa315fc4f4ed0",
+  "commit_sha": "8a34a4f653bdbdc01415a94dc20d4e9b97438965",
+  "files_scanned": 150,
+  "docs_created": 302,
+  "words_estimated": 252581,
+  "bytes_written": 20953658,
+  "timestamp_start": "2025-11-18T22:14:16.066101",
+  "timestamp_end": "2025-11-18T22:14:16.845316",
+  "file_map": [
+    {
+      "path": "LICENSE-CODE",
+      "type": "text",
+      "size": 1083
+    },
+    {
+      "path": "LICENSE-TEXT",
+      "type": "text",
+      "size": 18650
+    },
+    {
+      "path": "README.md",
+      "type": "text",
+      "size": 3699
+    },
+    {
+      "path": "environment.yml",
+      "type": "text",
+      "size": 117
+    },
+    {
+      "path": "notebooks/00.00-Preface.ipynb",
+      "type": "text",
+      "size": 13987
+    },
+    {
+      "path": "notebooks/01.00-IPython-Beyond-Normal-Python.ipynb",
+      "type": "text",
+      "size": 8510
+    },
+    {
+      "path": "notebooks/01.01-Help-And-Documentation.ipynb",
+      "type": "text",
+      "size": 15448
+    },
+    {
+      "path": "notebooks/01.02-Shell-Keyboard-Shortcuts.ipynb",
+      "type": "text",
+      "size": 10620
+    },
+    {
+      "path": "notebooks/01.03-Magic-Commands.ipynb",
+      "type": "text",
+      "size": 9937
+    },
+    {
+      "path": "notebooks/01.04-Input-Output-History.ipynb",
+      "type": "text",
+      "size": 9131
+    },
+    {
+      "path": "notebooks/01.05-IPython-And-Shell-Commands.ipynb",
+      "type": "text",
+      "size": 11580
+    },
+    {
+      "path": "notebooks/01.06-Errors-and-Debugging.ipynb",
+      "type": "text",
+      "size": 21251
+    },
+    {
+      "path": "notebooks/01.07-Timing-and-Profiling.ipynb",
+      "type": "text",
+      "size": 18952
+    },
+    {
+      "path": "notebooks/01.08-More-IPython-Resources.ipynb",
+      "type": "text",
+      "size": 5629
+    },
+    {
+      "path": "notebooks/02.00-Introduction-to-NumPy.ipynb",
+      "type": "text",
+      "size": 7586
+    },
+    {
+      "path": "notebooks/02.01-Understanding-Data-Types.ipynb",
+      "type": "text",
+      "size": 23921
+    },
+    {
+      "path": "notebooks/02.02-The-Basics-Of-NumPy-Arrays.ipynb",
+      "type": "text",
+      "size": 33517
+    },
+    {
+      "path": "notebooks/02.03-Computation-on-arrays-ufuncs.ipynb",
+      "type": "text",
+      "size": 32076
+    },
+    {
+      "path": "notebooks/02.04-Computation-on-arrays-aggregates.ipynb",
+      "type": "text",
+      "size": 31322
+    },
+    {
+      "path": "notebooks/02.05-Computation-on-arrays-broadcasting.ipynb",
+      "type": "text",
+      "size": 102239
+    },
+    {
+      "path": "notebooks/02.06-Boolean-Arrays-and-Masks.ipynb",
+      "type": "text",
+      "size": 41172
+    },
+    {
+      "path": "notebooks/02.07-Fancy-Indexing.ipynb",
+      "type": "text",
+      "size": 63008
+    },
+    {
+      "path": "notebooks/02.08-Sorting.ipynb",
+      "type": "text",
+      "size": 62237
+    },
+    {
+      "path": "notebooks/02.09-Structured-Data-NumPy.ipynb",
+      "type": "text",
+      "size": 17253
+    },
+    {
+      "path": "notebooks/03.00-Introduction-to-Pandas.ipynb",
+      "type": "text",
+      "size": 7073
+    },
+    {
+      "path": "notebooks/03.01-Introducing-Pandas-Objects.ipynb",
+      "type": "text",
+      "size": 40120
+    },
+    {
+      "path": "notebooks/03.02-Data-Indexing-and-Selection.ipynb",
+      "type": "text",
+      "size": 41324
+    },
+    {
+      "path": "notebooks/03.03-Operations-in-Pandas.ipynb",
+      "type": "text",
+      "size": 27597
+    },
+    {
+      "path": "notebooks/03.04-Missing-Values.ipynb",
+      "type": "text",
+      "size": 37432
+    },
+    {
+      "path": "notebooks/03.05-Hierarchical-Indexing.ipynb",
+      "type": "text",
+      "size": 76228
+    },
+    {
+      "path": "notebooks/03.06-Concat-And-Append.ipynb",
+      "type": "text",
+      "size": 47492
+    },
+    {
+      "path": "notebooks/03.07-Merge-and-Join.ipynb",
+      "type": "text",
+      "size": 107415
+    },
+    {
+      "path": "notebooks/03.08-Aggregation-and-Grouping.ipynb",
+      "type": "text",
+      "size": 79265
+    },
+    {
+      "path": "notebooks/03.09-Pivot-Tables.ipynb",
+      "type": "text",
+      "size": 185858
+    },
+    {
+      "path": "notebooks/03.10-Working-With-Strings.ipynb",
+      "type": "text",
+      "size": 42270
+    },
+    {
+      "path": "notebooks/03.11-Working-with-Time-Series.ipynb",
+      "type": "text",
+      "size": 678502
+    },
+    {
+      "path": "notebooks/03.12-Performance-Eval-and-Query.ipynb",
+      "type": "text",
+      "size": 31158
+    },
+    {
+      "path": "notebooks/03.13-Further-Resources.ipynb",
+      "type": "text",
+      "size": 5059
+    },
+    {
+      "path": "notebooks/04.00-Introduction-To-Matplotlib.ipynb",
+      "type": "text",
+      "size": 101181
+    },
+    {
+      "path": "notebooks/04.01-Simple-Line-Plots.ipynb",
+      "type": "text",
+      "size": 296092
+    },
+    {
+      "path": "notebooks/04.02-Simple-Scatter-Plots.ipynb",
+      "type": "text",
+      "size": 197793
+    },
+    {
+      "path": "notebooks/04.03-Errorbars.ipynb",
+      "type": "text",
+      "size": 47770
+    },
+    {
+      "path": "notebooks/04.04-Density-and-Contour-Plots.ipynb",
+      "type": "text",
+      "size": 497733
+    },
+    {
+      "path": "notebooks/04.05-Histograms-and-Binnings.ipynb",
+      "type": "text",
+      "size": 125401
+    },
+    {
+      "path": "notebooks/04.06-Customizing-Legends.ipynb",
+      "type": "text",
+      "size": 219745
+    },
+    {
+      "path": "notebooks/04.07-Customizing-Colorbars.ipynb",
+      "type": "text",
+      "size": 435390
+    },
+    {
+      "path": "notebooks/04.08-Multiple-Subplots.ipynb",
+      "type": "text",
+      "size": 150872
+    },
+    {
+      "path": "notebooks/04.09-Text-and-Annotation.ipynb",
+      "type": "text",
+      "size": 195882
+    },
+    {
+      "path": "notebooks/04.10-Customizing-Ticks.ipynb",
+      "type": "text",
+      "size": 318079
+    },
+    {
+      "path": "notebooks/04.11-Settings-and-Stylesheets.ipynb",
+      "type": "text",
+      "size": 372144
+    },
+    {
+      "path": "notebooks/04.12-Three-Dimensional-Plotting.ipynb",
+      "type": "text",
+      "size": 662706
+    },
+    {
+      "path": "notebooks/04.13-Geographic-Data-With-Basemap.ipynb",
+      "type": "text",
+      "size": 2737742
+    },
+    {
+      "path": "notebooks/04.14-Visualization-With-Seaborn.ipynb",
+      "type": "text",
+      "size": 1071842
+    },
+    {
+      "path": "notebooks/04.15-Further-Resources.ipynb",
+      "type": "text",
+      "size": 5794
+    },
+    {
+      "path": "notebooks/05.00-Machine-Learning.ipynb",
+      "type": "text",
+      "size": 5117
+    },
+    {
+      "path": "notebooks/05.01-What-Is-Machine-Learning.ipynb",
+      "type": "text",
+      "size": 24169
+    },
+    {
+      "path": "notebooks/05.02-Introducing-Scikit-Learn.ipynb",
+      "type": "text",
+      "size": 390676
+    },
+    {
+      "path": "notebooks/05.03-Hyperparameters-and-Model-Validation.ipynb",
+      "type": "text",
+      "size": 214676
+    },
+    {
+      "path": "notebooks/05.04-Feature-Engineering.ipynb",
+      "type": "text",
+      "size": 49216
+    },
+    {
+      "path": "notebooks/05.05-Naive-Bayes.ipynb",
+      "type": "text",
+      "size": 263533
+    },
+    {
+      "path": "notebooks/05.06-Linear-Regression.ipynb",
+      "type": "text",
+      "size": 387622
+    },
+    {
+      "path": "notebooks/05.07-Support-Vector-Machines.ipynb",
+      "type": "text",
+      "size": 1032833
+    },
+    {
+      "path": "notebooks/05.08-Random-Forests.ipynb",
+      "type": "text",
+      "size": 485813
+    },
+    {
+      "path": "notebooks/05.09-Principal-Component-Analysis.ipynb",
+      "type": "text",
+      "size": 578683
+    },
+    {
+      "path": "notebooks/05.10-Manifold-Learning.ipynb",
+      "type": "text",
+      "size": 1558332
+    },
+    {
+      "path": "notebooks/05.11-K-Means.ipynb",
+      "type": "text",
+      "size": 2107550
+    },
+    {
+      "path": "notebooks/05.12-Gaussian-Mixtures.ipynb",
+      "type": "text",
+      "size": 1135277
+    },
+    {
+      "path": "notebooks/05.13-Kernel-Density-Estimation.ipynb",
+      "type": "text",
+      "size": 259297
+    },
+    {
+      "path": "notebooks/05.14-Image-Features.ipynb",
+      "type": "text",
+      "size": 566736
+    },
+    {
+      "path": "notebooks/05.15-Learning-More.ipynb",
+      "type": "text",
+      "size": 6904
+    },
+    {
+      "path": "notebooks/06.00-Figure-Code.ipynb",
+      "type": "text",
+      "size": 1846017
+    },
+    {
+      "path": "notebooks/Index.ipynb",
+      "type": "text",
+      "size": 6707
+    },
+    {
+      "path": "notebooks/data/BicycleWeather.csv",
+      "type": "text",
+      "size": 234945
+    },
+    {
+      "path": "notebooks/data/Seattle2014.csv",
+      "type": "text",
+      "size": 45122
+    },
+    {
+      "path": "notebooks/data/births.csv",
+      "type": "text",
+      "size": 264648
+    },
+    {
+      "path": "notebooks/data/california_cities.csv",
+      "type": "text",
+      "size": 59658
+    },
+    {
+      "path": "notebooks/data/president_heights.csv",
+      "type": "text",
+      "size": 988
+    },
+    {
+      "path": "notebooks/data/state-abbrevs.csv",
+      "type": "text",
+      "size": 872
+    },
+    {
+      "path": "notebooks/data/state-areas.csv",
+      "type": "text",
+      "size": 835
+    },
+    {
+      "path": "notebooks/data/state-population.csv",
+      "type": "text",
+      "size": 57935
+    },
+    {
+      "path": "notebooks/figures/02.05-broadcasting.png",
+      "type": "binary",
+      "size": 17047
+    },
+    {
+      "path": "notebooks/figures/03.08-split-apply-combine.png",
+      "type": "binary",
+      "size": 25523
+    },
+    {
+      "path": "notebooks/figures/05.01-classification-1.png",
+      "type": "binary",
+      "size": 14866
+    },
+    {
+      "path": "notebooks/figures/05.01-classification-2.png",
+      "type": "binary",
+      "size": 20613
+    },
+    {
+      "path": "notebooks/figures/05.01-classification-3.png",
+      "type": "binary",
+      "size": 24090
+    },
+    {
+      "path": "notebooks/figures/05.01-clustering-1.png",
+      "type": "binary",
+      "size": 11016
+    },
+    {
+      "path": "notebooks/figures/05.01-clustering-2.png",
+      "type": "binary",
+      "size": 24013
+    },
+    {
+      "path": "notebooks/figures/05.01-dimesionality-1.png",
+      "type": "binary",
+      "size": 13107
+    },
+    {
+      "path": "notebooks/figures/05.01-dimesionality-2.png",
+      "type": "binary",
+      "size": 31372
+    },
+    {
+      "path": "notebooks/figures/05.01-regression-1.png",
+      "type": "binary",
+      "size": 37974
+    },
+    {
+      "path": "notebooks/figures/05.01-regression-2.png",
+      "type": "binary",
+      "size": 55922
+    },
+    {
+      "path": "notebooks/figures/05.01-regression-3.png",
+      "type": "binary",
+      "size": 44108
+    },
+    {
+      "path": "notebooks/figures/05.01-regression-4.png",
+      "type": "binary",
+      "size": 36461
+    },
+    {
+      "path": "notebooks/figures/05.02-samples-features.png",
+      "type": "binary",
+      "size": 7712
+    },
+    {
+      "path": "notebooks/figures/05.03-2-fold-CV.png",
+      "type": "binary",
+      "size": 7816
+    },
+    {
+      "path": "notebooks/figures/05.03-5-fold-CV.png",
+      "type": "binary",
+      "size": 10421
+    },
+    {
+      "path": "notebooks/figures/05.03-bias-variance-2.png",
+      "type": "binary",
+      "size": 45340
+    },
+    {
+      "path": "notebooks/figures/05.03-bias-variance.png",
+      "type": "binary",
+      "size": 37019
+    },
+    {
+      "path": "notebooks/figures/05.03-learning-curve.png",
+      "type": "binary",
+      "size": 30231
+    },
+    {
+      "path": "notebooks/figures/05.03-validation-curve.png",
+      "type": "binary",
+      "size": 37170
+    },
+    {
+      "path": "notebooks/figures/05.05-gaussian-NB.png",
+      "type": "binary",
+      "size": 51406
+    },
+    {
+      "path": "notebooks/figures/05.06-gaussian-basis.png",
+      "type": "binary",
+      "size": 30865
+    },
+    {
+      "path": "notebooks/figures/05.08-decision-tree-levels.png",
+      "type": "binary",
+      "size": 120901
+    },
+    {
+      "path": "notebooks/figures/05.08-decision-tree-overfitting.png",
+      "type": "binary",
+      "size": 49202
+    },
+    {
+      "path": "notebooks/figures/05.08-decision-tree.png",
+      "type": "binary",
+      "size": 34011
+    },
+    {
+      "path": "notebooks/figures/05.09-PCA-rotation.png",
+      "type": "binary",
+      "size": 30758
+    },
+    {
+      "path": "notebooks/figures/05.09-digits-pca-components.png",
+      "type": "binary",
+      "size": 15015
+    },
+    {
+      "path": "notebooks/figures/05.09-digits-pixel-components.png",
+      "type": "binary",
+      "size": 7378
+    },
+    {
+      "path": "notebooks/figures/05.10-LLE-vs-MDS.png",
+      "type": "binary",
+      "size": 159433
+    },
+    {
+      "path": "notebooks/figures/05.11-expectation-maximization.png",
+      "type": "binary",
+      "size": 155862
+    },
+    {
+      "path": "notebooks/figures/05.12-covariance-type.png",
+      "type": "binary",
+      "size": 61949
+    },
+    {
+      "path": "notebooks/figures/Data_Science_VD.png",
+      "type": "binary",
+      "size": 76684
+    },
+    {
+      "path": "notebooks/figures/PDSH-cover-small.png",
+      "type": "binary",
+      "size": 15707
+    },
+    {
+      "path": "notebooks/figures/PDSH-cover.png",
+      "type": "binary",
+      "size": 109099
+    },
+    {
+      "path": "notebooks/figures/array_vs_list.png",
+      "type": "binary",
+      "size": 76909
+    },
+    {
+      "path": "notebooks/figures/cint_vs_pyint.png",
+      "type": "binary",
+      "size": 14885
+    },
+    {
+      "path": "notebooks/helpers_05_08.py",
+      "type": "text",
+      "size": 2853
+    },
+    {
+      "path": "requirements.txt",
+      "type": "text",
+      "size": 213
+    },
+    {
+      "path": "tools/README.md",
+      "type": "text",
+      "size": 390
+    },
+    {
+      "path": "tools/add_book_info.py",
+      "type": "text",
+      "size": 1486
+    },
+    {
+      "path": "tools/add_navigation.py",
+      "type": "text",
+      "size": 2170
+    },
+    {
+      "path": "tools/fix_kernelspec.py",
+      "type": "text",
+      "size": 468
+    },
+    {
+      "path": "tools/generate_contents.py",
+      "type": "text",
+      "size": 1621
+    },
+    {
+      "path": "website/Makefile",
+      "type": "text",
+      "size": 4740
+    },
+    {
+      "path": "website/README.md",
+      "type": "text",
+      "size": 1182
+    },
+    {
+      "path": "website/content/favicon.ico",
+      "type": "binary",
+      "size": 1150
+    },
+    {
+      "path": "website/copy_notebooks.py",
+      "type": "text",
+      "size": 4341
+    },
+    {
+      "path": "website/fabfile.py",
+      "type": "text",
+      "size": 2437
+    },
+    {
+      "path": "website/pelicanconf.py",
+      "type": "text",
+      "size": 2038
+    },
+    {
+      "path": "website/publishconf.py",
+      "type": "text",
+      "size": 613
+    },
+    {
+      "path": "website/theme/README.md",
+      "type": "text",
+      "size": 226
+    },
+    {
+      "path": "website/theme/static/css/icons.css",
+      "type": "text",
+      "size": 1900
+    },
+    {
+      "path": "website/theme/static/font/icons.eot",
+      "type": "binary",
+      "size": 5584
+    },
+    {
+      "path": "website/theme/static/font/icons.svg",
+      "type": "binary",
+      "size": 2987
+    },
+    {
+      "path": "website/theme/static/font/icons.ttf",
+      "type": "binary",
+      "size": 5428
+    },
+    {
+      "path": "website/theme/static/font/icons.woff",
+      "type": "binary",
+      "size": 3652
+    },
+    {
+      "path": "website/theme/templates/_includes/analytics.html",
+      "type": "text",
+      "size": 1482
+    },
+    {
+      "path": "website/theme/templates/_includes/disqus_thread.html",
+      "type": "text",
+      "size": 907
+    },
+    {
+      "path": "website/theme/templates/about.html",
+      "type": "text",
+      "size": 1507
+    },
+    {
+      "path": "website/theme/templates/archives.html",
+      "type": "text",
+      "size": 867
+    },
+    {
+      "path": "website/theme/templates/article.html",
+      "type": "text",
+      "size": 1224
+    },
+    {
+      "path": "website/theme/templates/base.html",
+      "type": "text",
+      "size": 4219
+    },
+    {
+      "path": "website/theme/templates/booksection.html",
+      "type": "text",
+      "size": 1419
+    },
+    {
+      "path": "website/theme/templates/index.html",
+      "type": "text",
+      "size": 1367
+    },
+    {
+      "path": "website/theme/templates/ipynb.css",
+      "type": "text",
+      "size": 552
+    },
+    {
+      "path": "website/theme/templates/main.css",
+      "type": "text",
+      "size": 4932
+    },
+    {
+      "path": "website/theme/templates/main.less",
+      "type": "text",
+      "size": 6090
+    },
+    {
+      "path": "website/theme/templates/page.html",
+      "type": "text",
+      "size": 606
+    },
+    {
+      "path": "website/theme/templates/pygments.css",
+      "type": "text",
+      "size": 3895
+    },
+    {
+      "path": "website/theme/templates/tag.html",
+      "type": "text",
+      "size": 617
+    }
+  ],
+  "checksums": {
+    "LICENSE-CODE_docs.md": "36872ad52f976297c489d2d33b032c375f76b7d1ce618459fbc571790d57f97e",
+    "LICENSE-TEXT_docs.md": "8e9281d6749fcc5ea7697760134e1cd311bd1fd829f405155594327b9d8fc593",
+    "README.md_docs.md": "efe296fa628967adbca9e7e6a6633f4de755929f70c7de981cc002083c658424",
+    "environment.yml_docs.md": "ca80eaefb7e39e8904dbb022452f893546be2dfa4491020f45f2a3d7c70344c7",
+    "notebooks/00.00-Preface.ipynb_docs.md": "2dc96ff39ba12a61605fd370989b91f90b86cfcfd591f186f23bdad87a882560",
+    "notebooks/01.00-IPython-Beyond-Normal-Python.ipynb_docs.md": "f7e0f6ccca21dd436bfef5b5afd55b2a46d8547df11b2f60dd78e111f8db6639",
+    "notebooks/01.01-Help-And-Documentation.ipynb_docs.md": "3aa1e51cd438f252413669db387bd8fd6fd9c83cfcd6e09df4cc8eba280f337b",
+    "notebooks/01.02-Shell-Keyboard-Shortcuts.ipynb_docs.md": "ab61dd94ec3576731cc6690f05c0d025e5a72c1b0d737aa44ab7c00ab07fe504",
+    "notebooks/01.03-Magic-Commands.ipynb_docs.md": "be0944b57dfcd45f3446eb56aa09e8b41d4d276f5223a25c032c2fa55bb84ac0",
+    "notebooks/01.04-Input-Output-History.ipynb_docs.md": "5d1e4ebfa054b5c082320bcaf6a56a1b0fec4526e6ee90d3869ab99638470d8f",
+    "notebooks/01.05-IPython-And-Shell-Commands.ipynb_docs.md": "8cbcd1ba6dec8753be83a0a7a36a345eecdd79b497c02896e5675da3d468607d",
+    "notebooks/01.06-Errors-and-Debugging.ipynb_docs.md": "8048e650d3eb970862e305c4c7b53e92c2776b382f2750ec1bbe6f2fd10174c4",
+    "notebooks/01.07-Timing-and-Profiling.ipynb_docs.md": "ff131e73c89e64b65b110e72e0a72c1f794783830c35fb697938b30bea8931c3",
+    "notebooks/01.08-More-IPython-Resources.ipynb_docs.md": "f282ffad0af15748e9ae011f5358bd76db236753f749c0701b60fce10a757720",
+    "notebooks/02.00-Introduction-to-NumPy.ipynb_docs.md": "abe7f69e33a32ff9133df95d28201a1a7abeeebff9b54dedc94b636202df4d8a",
+    "notebooks/02.01-Understanding-Data-Types.ipynb_docs.md": "a10d087152727352ca938dc3dc1de136d3647fdfb1263efa55b4a5eba4fb106f",
+    "notebooks/02.02-The-Basics-Of-NumPy-Arrays.ipynb_docs.md": "9990cb7c3e63692991f178e0bf4250c815a14f586df68f69808e94f1113557c6",
+    "notebooks/02.03-Computation-on-arrays-ufuncs.ipynb_docs.md": "6a0eb495aa2e4484e838391b514f063c252bc5a8682cdefdda738fd3fac2cd8e",
+    "notebooks/02.04-Computation-on-arrays-aggregates.ipynb_docs.md": "215e8c303fd9a78e4071b0fcbfb3dd60d6b48cd69b6060ce0d859ae003c01898",
+    "notebooks/02.05-Computation-on-arrays-broadcasting.ipynb_docs.md": "39c0e8b171d60e575659918bbdf664bbfd8698aa20b237f878eadf0eb928f9cf",
+    "notebooks/02.06-Boolean-Arrays-and-Masks.ipynb_docs.md": "782fda839ffe184c4e2ee9e13751ab33f3797ce68394eae2ef30bc36a68739ce",
+    "notebooks/02.07-Fancy-Indexing.ipynb_docs.md": "18df7632b2ee88572988166918e2737acb605ae4becf0c5f26646288dbc6e2fd",
+    "notebooks/02.08-Sorting.ipynb_docs.md": "141aefdf4034cf6901b524f252d8c5e54b983db6b410b78b6dfc1d0cea97d20a",
+    "notebooks/02.09-Structured-Data-NumPy.ipynb_docs.md": "796831e1d5d8abcb8b3d4d0d6b798c9494df65e0e2f3524f12626664f945abf6",
+    "notebooks/03.00-Introduction-to-Pandas.ipynb_docs.md": "1e65e57951ac44255d9523b30129e1ec3e4eef17109ce5688f8e60457dc685b3",
+    "notebooks/03.01-Introducing-Pandas-Objects.ipynb_docs.md": "0e16c87818dde26a763aaa3672c9d4a75785d12023ac814080d68c97dd44f23f",
+    "notebooks/03.02-Data-Indexing-and-Selection.ipynb_docs.md": "e1517efe706006d0ed645f7c3f0ad869ad1c30d180f41eb308f397578db003d3",
+    "notebooks/03.03-Operations-in-Pandas.ipynb_docs.md": "392608a03f81bac25340adc7aea9831aa5448ff4f8125d99176c2eda3d9b2908",
+    "notebooks/03.04-Missing-Values.ipynb_docs.md": "dde3594bcc2537ee6055538c853e0fba84834cb6b2f6b2dc33b30d5cdea4affb",
+    "notebooks/03.05-Hierarchical-Indexing.ipynb_docs.md": "1c06e350c9fcd4a1d62a4f24aa7314fcfadf16acdd22911004db9d983437e628",
+    "notebooks/03.06-Concat-And-Append.ipynb_docs.md": "4c1ac18e1d610a049072f2066a7ad1e647e6cec69036cbe58905d7b309a0c2df",
+    "notebooks/03.07-Merge-and-Join.ipynb_docs.md": "52f6476390359a250aeeeef360f03f5ff6c7a511aadd8f4a58d8d5fd051f819d",
+    "notebooks/03.08-Aggregation-and-Grouping.ipynb_docs.md": "dce61a0eaa5ef4f31f6c529eee0161bab2bb7b9fd4bf376c37bc728f82e533e9",
+    "notebooks/03.09-Pivot-Tables.ipynb_docs.md": "a5b8b1c1e67d4957989c80f00df06d6bbe38bad52b687233831a78b30ba598af",
+    "notebooks/03.10-Working-With-Strings.ipynb_docs.md": "c073c7369855be51a465c7ac8e0e1782367ecb3fd0434a2f072be1c4f8afdfe4",
+    "notebooks/03.11-Working-with-Time-Series.ipynb_docs.md": "008d9a7ebbdb0cc1197866c7335316f4e0f1d3c089095e0c34dcdd5836a496d2",
+    "notebooks/03.12-Performance-Eval-and-Query.ipynb_docs.md": "d1c30b86d7012d03d37c2f098e65179d1b769e0c23670cb0e5d8c6a8b12fd142",
+    "notebooks/03.13-Further-Resources.ipynb_docs.md": "dae85969cbd2d3abf5ed4ab2b1e2e320895446f5912fdbc88422a98506fc9ce2",
+    "notebooks/04.00-Introduction-To-Matplotlib.ipynb_docs.md": "2302ee4bc02b9753037d3a0458fe7a939e9707f8be5b368eed4e8457bbe4a7da",
+    "notebooks/04.01-Simple-Line-Plots.ipynb_docs.md": "e4f65aff1795c632c796ec88bbcb17bc0adcb8557378eaa5a13e509e8792c090",
+    "notebooks/04.02-Simple-Scatter-Plots.ipynb_docs.md": "c4067d8646c15ed87e753e631b80bbcc3b9f3b0cf45a44a04b1f4e69c1cf6882",
+    "notebooks/04.03-Errorbars.ipynb_docs.md": "daed58b17a30490ea93acc73deff555b58ceaace5241c9deea4d92a3e26b1f7b",
+    "notebooks/04.04-Density-and-Contour-Plots.ipynb_docs.md": "1a21dec0edc4822c8b16dc35fd8b4fb3d402b84d377204ac395ccb98225a6219",
+    "notebooks/04.05-Histograms-and-Binnings.ipynb_docs.md": "2aa88328228c7f508a06911a6f62624771a366ffb09e786a15f936345b350902",
+    "notebooks/04.06-Customizing-Legends.ipynb_docs.md": "05902309b695394e37349ac88becaa19c3cefe7fe6230c572b4754df532a5368",
+    "notebooks/04.07-Customizing-Colorbars.ipynb_docs.md": "7c33bde02e710bd8d199ae00cc4cadf6ff6ad0ea35e02a81de88e342b536e284",
+    "notebooks/04.08-Multiple-Subplots.ipynb_docs.md": "cfd8bf4c52acbcecbbaf68c0314a1fa37480ece55b62cf9070b5d6f56e9b7438",
+    "notebooks/04.09-Text-and-Annotation.ipynb_docs.md": "832a22750a7ce55ac09eea10069f5f728650fca1a03bf14aed049e20e31647c5",
+    "notebooks/04.10-Customizing-Ticks.ipynb_docs.md": "bbcf61e6e7b36759c831502ecae2bed8f0614eeb71b5b06689b0ab12edfd047a",
+    "notebooks/04.11-Settings-and-Stylesheets.ipynb_docs.md": "abc872fea2904237fc175b8f337dfe6293807e65761e0186002a3474a29c259a",
+    "notebooks/04.12-Three-Dimensional-Plotting.ipynb_docs.md": "0d368591690ddc88806d066ec9b1c6949cc30005f70459d6d5eb26badb36daf0",
+    "notebooks/04.13-Geographic-Data-With-Basemap.ipynb_docs.md": "78945f122768d8790ceb50f63c7adbb5f6fd923573eaf1a5b8b704b87b56c71d",
+    "notebooks/04.14-Visualization-With-Seaborn.ipynb_docs.md": "566911e4fb3e720b39541a1370e3e1859e764b330f980653e449e875882ae427",
+    "notebooks/04.15-Further-Resources.ipynb_docs.md": "52f706bd78711ab20c7129d099e014ccab1b6514ba47b1daa61bbd6e24fe1171",
+    "notebooks/05.00-Machine-Learning.ipynb_docs.md": "7fb92e3cc0d839c4714088c57627335b519318fb28c0a625dd6a51f4c2073b17",
+    "notebooks/05.01-What-Is-Machine-Learning.ipynb_docs.md": "ec1986501a82fe0e635a1d7073f0c1e048f117ff36be9b7d4059816496c52212",
+    "notebooks/05.02-Introducing-Scikit-Learn.ipynb_docs.md": "1fae3d3105912c3712f7616caa5c3fe4be4f0e87bc8df04ae7bc19be8745f289",
+    "notebooks/05.03-Hyperparameters-and-Model-Validation.ipynb_docs.md": "41e97a703f2af33496010e7a1cec14c2aaa9fac622513d5ee98f73d13419ac3e",
+    "notebooks/05.04-Feature-Engineering.ipynb_docs.md": "e8bb19cc48916b2dbfb44610d7b3295955ae0b9c1df13d11a21789e62da05cd9",
+    "notebooks/05.05-Naive-Bayes.ipynb_docs.md": "7258bb75bbc3a97fa04c4d0166a117e7f1771f74bf2a6fe383bc1a4240450f50",
+    "notebooks/05.06-Linear-Regression.ipynb_docs.md": "96eb74e0f1ad4da0d0db9960267ca03c052c847b171bc57b3e5d43c30c310ccc",
+    "notebooks/05.07-Support-Vector-Machines.ipynb_docs.md": "4996db1948013cb68714bc9887baa40e512b7b25b3a510730d944a258fe9c815",
+    "notebooks/05.08-Random-Forests.ipynb_docs.md": "d934d81a830a222ab9341593b3572540f19038516bda0885ba90b01584b7a0b1",
+    "notebooks/05.09-Principal-Component-Analysis.ipynb_docs.md": "7971f95d5957cccfd7ef744e9cbe4bbdc86156c112f06874062575fb54cfeca5",
+    "notebooks/05.10-Manifold-Learning.ipynb_docs.md": "af201ad6a5d34a7fd31a8ad22ec4d56aea6f6bf84e1a18ebb790d7935e62380c",
+    "notebooks/05.11-K-Means.ipynb_docs.md": "7f6b70453e7df75e744b29b31fb83fe3cf2843827dd0cbe31e11b0f3f9e6b185",
+    "notebooks/05.12-Gaussian-Mixtures.ipynb_docs.md": "9e97fa4feb556e3032142b39ac7b9d67e6bb31e5f9a00c9b53cfada3f391678a",
+    "notebooks/05.13-Kernel-Density-Estimation.ipynb_docs.md": "27e6ea45c64f22dd17c3b6c08acccad0e27d9ccb1612f7caabadb19072f23746",
+    "notebooks/05.14-Image-Features.ipynb_docs.md": "0791929bbe180b289741a0d778f94c9796699dd797fa9e206ebea8e4950c9473",
+    "notebooks/05.15-Learning-More.ipynb_docs.md": "2ab4b993eb5d7f89661cf47c06c9b5f06f02a2fc92cf40dbc4401442280cc63e",
+    "notebooks/06.00-Figure-Code.ipynb_docs.md": "e61ab2be743596a993a58298204b456b7d9c76cdb1cd6086d8ac1b1d674a5e35",
+    "notebooks/Index.ipynb_docs.md": "225ee674e8981f651edaa431345948f00386218ca568a484c758df4f4e3621de",
+    "notebooks/data/BicycleWeather.csv_docs.md": "b61fc38383ed78dfb8f45c26734b3346d360b4b2ce9ed6548f62c421796f6324",
+    "notebooks/data/Seattle2014.csv_docs.md": "746069ae2c06fec75de7619d13ff852ec1edd7e342cfa026a27b20046b02fd05",
+    "notebooks/data/births.csv_docs.md": "9a2a2c10a5aca1e8af22e7d180852945910b8c4463baa622707f0a9df67c34a8",
+    "notebooks/data/california_cities.csv_docs.md": "1cc55ef46ccacc5f077ce18ffbebf3501b248da9e4e688a5fe5ee0d455ff1448",
+    "notebooks/data/president_heights.csv_docs.md": "2b93254903298027e9092fb197cf480055812c2cf73e3e35996ce7ffaa952a05",
+    "notebooks/data/state-abbrevs.csv_docs.md": "1935f0290a92d4cbef676b8e18482c5d3907072addd5b3d8dc4fa1867d65d895",
+    "notebooks/data/state-areas.csv_docs.md": "3969f05ecaac20716cc7d5fd4beca1e7a032714f5f111d19a090c82311a7f15a",
+    "notebooks/data/state-population.csv_docs.md": "dd154592c95f28a8406a6b543590701b6867fdac6a7ec9a0521e3ba12a3deb36",
+    "notebooks/helpers_05_08.py_docs.md": "0ef70e9dc9c4bd4da2d6c96cec986603a00e7288ce459182610444ee2017a741",
+    "requirements.txt_docs.md": "1935c3f9727baa055aef167f42e2431579466e30f896a947a262be1aa2a8ef7a",
+    "tools/README.md_docs.md": "1df1729e9a4ebe4d613d4c03c0f3e2144710227baa4e579b78eaf806b956c354",
+    "tools/add_book_info.py_docs.md": "c40eb5df19b6f9a6666a178dd84119b9f3b0d214642be955ccf0a059245bb641",
+    "tools/add_navigation.py_docs.md": "c9e9db9aeeeb2b62c1aa94cf30e7e5ef71ba486c7886e825abf78c417b1bd025",
+    "tools/fix_kernelspec.py_docs.md": "ec1b9335578cfa437a84be3ad7ec37a39044ddcec69c0f9abf4e703ee0690dce",
+    "tools/generate_contents.py_docs.md": "eededeb7d033c7ef8167418cf444d80d597cfb2de48f2e108c9a6dc0d9262271",
+    "website/Makefile_docs.md": "b9d2985ebde57e3441671ce752454f3f2c8b23e8c09e886e3b13178e9b9837aa",
+    "website/README.md_docs.md": "2dc045203f54888fbb3a9f16e956048e84bdf7aa2f93e9e93b70320754733673",
+    "website/copy_notebooks.py_docs.md": "5bea357cb429a8226c139c55b82ba0d1bdd0dedd913e5ef39e63c35b468daa25",
+    "website/fabfile.py_docs.md": "bbcf2f9d1a7688247546ededdfdafaa765c95877969d704a63f28ec6ab4a0a80",
+    "website/pelicanconf.py_docs.md": "02716ad1a0c4b4aced3237ff3070dafbf88a9b1d25cb790c4488ffb9133361d8",
+    "website/publishconf.py_docs.md": "f954e5d14190315be3a53e7508d18a07ecec4118335a44e3cc4a0791bf39f9c5",
+    "website/theme/README.md_docs.md": "36978e3351c53490c0e838b9ccedb2cea1584cbf91aa4e9eb8af002e5bef424b",
+    "website/theme/static/css/icons.css_docs.md": "d97df8404145e37851e04c2c80cc2bfc782508a546f9e690d421dcdba3b647d3",
+    "website/theme/templates/_includes/analytics.html_docs.md": "e0a135fe7128ceea4cb031c5571634594e31dfdb02189d404b2d83cd71d055bd",
+    "website/theme/templates/_includes/disqus_thread.html_docs.md": "3f108adab5ddec3dc0a2c12c6a8ef324803c84b8f564c0364096a3752c150ee8",
+    "website/theme/templates/about.html_docs.md": "604c3c41183e2cc96aa6aee2aae39db1ef1632944842978a843479e3b444276c",
+    "website/theme/templates/archives.html_docs.md": "0c4e88ebb122c23a6c752c8207339ab7e3d47c4c70af3dc5a8607d3c878a1fa0",
+    "website/theme/templates/article.html_docs.md": "18aed7de32803f62f9554b0af3fef6cec18d19b8a7b298ee81233b98dd67bd92",
+    "website/theme/templates/base.html_docs.md": "72cde3dbaeceb82130391f6d35d85ecede3384d3a1d89ece3702051fdfa5370f",
+    "website/theme/templates/booksection.html_docs.md": "c2f2adaa1682e85c56cabc9213d669bb5af6542c2c68a03d7caf8042ecdcb76c",
+    "website/theme/templates/index.html_docs.md": "bb33395eaecaa256d9364cf3854fc78ed08ff058f02b025cd5a4cd23267851c9",
+    "website/theme/templates/ipynb.css_docs.md": "46d8fe7dfddcb24ba904f68745ea158978de1f215c133f583009750950312895",
+    "website/theme/templates/main.css_docs.md": "0d2cf3e5e372f5a34c59ba3b8f43a6bd6afca177ab8794d0247b54f887a333d8",
+    "website/theme/templates/main.less_docs.md": "47a3460d6a1b9c47fa4bfe09fb97e5ce1d40a8eed1c606e36b8cb1cf782c7aee",
+    "website/theme/templates/page.html_docs.md": "d186da00f732d201db557e83a7e154680f758a8c06eb94f8fa1ad392488ba0be",
+    "website/theme/templates/pygments.css_docs.md": "d5d34e422dca6fe07931c1084b5596cfd43699ae7d5c6bc3d77eee408da4ce4f",
+    "website/theme/templates/tag.html_docs.md": "5a418e75e916b8a458977cb0c1f9c477b2f5a32cac79bdae766e763fbfe12c94"
+  }
+}
